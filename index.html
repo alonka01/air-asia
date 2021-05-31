@@ -9,13 +9,13 @@
 </head>
 <body>
 
-    <div class="wrapper">
+<div class="wrapper">
         <div class="wrapper__content">
 
     <header class="header">
         <div class="container header__container">
             <a href="#" class="logo">
-                <img id="logo" src="img/logo.png" alt="logo air asia">
+                <img class="logo" src="img/logo.png" alt="logo air asia">
             </a>
                 <nav class="menu">
                     <ul class="menu__list">
@@ -34,34 +34,44 @@
                     <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
                        <div class="contacts__info">График работы</div>
                 </address>
-</div><!--End of container-->
-</header>
+        </div><!--End of container-->
+    </header>
 
 <main class="main-content">
 
-<section class="hello">
-    <div class="container">
-        <h1 class="hello_title">Авторские туры по Азии</h1>
-        <div class="hello__text">Открой для себя Азию</div>
-        <button class="hello__button button"><a href="#">ПОДРОБНЕЕ</a></button>
-    </div>
-</section>
+    <section class="hello">
+        <div class="container">
+            <h1 class="hello_title">Авторские туры по Азии</h1>
+            <div class="hello__text">Открой для себя Азию</div>
+            <a href="#" class="hello__button button">ПОДРОБНЕЕ</a>
+        </div>
+    </section>
 
     <section class="offers">
         <div class="container">
              <h2 class="title title--fire">Горящие туры</h2>
             
              <ul class="offers__list">
-                 <li class="offers__item">
+                 
+                <li class="offers__item">
                     <img src="img/river.png" class="offers__img" alt="hot tour">
                     <div class="offers__content">
                         <h3 class="offers__title">Таиланд</h3>
-                        <img src="img/calendar.png" alt="calendar" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">7-12 ночей</p>
-                        <img src="img/meal.png" alt="breakfast" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">Завтраки</p>
+                       
+                        <ul class="offers__features">
+                           <li class="offers__feature">
+                               <img src="img/calendar.png" alt="calendar" class="offers__features-icon">
+                            </li>
+                            <li class="offers_feature">7-12 ночей</li>
+                        </ul>
+
+                        <ul class="offers__features">
+                            <li class="offers__feature"><img src="img/meal.png" alt="breakfast" class="offers__features-icon"></li>
+                            <li class="offers__features-text">Завтраки</li>
+                        </ul>                        
+                       
                         <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="button button--light"><a href="#">СМОТРЕТЬ</a></button>
+                        <a href="#" class="button button--light">СМОТРЕТЬ</a>
                     </div>
                  </li>
                  
@@ -69,12 +79,21 @@
                     <img src="img/pool.png" class="offers__img" alt="hot tour">
                     <div class="offers__content">
                         <h3 class="offers__title">Бали</h3>
-                        <img src="img/calendar.png" alt="calendar" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">7-12 ночей</p>
-                        <img src="img/meal.png" alt="breakfast" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">Завтраки</p>
+                       
+                        <ul class="offers__features">
+                           <li class="offers__feature">
+                               <img src="img/calendar.png" alt="calendar" class="offers__features-icon">
+                            </li>
+                            <li class="offers_feature">7-12 ночей</li>
+                        </ul>
+
+                        <ul class="offers__features">
+                            <li class="offers__feature"><img src="img/meal.png" alt="breakfast" class="offers__features-icon"></li>
+                            <li class="offers__features-text">Завтраки</li>
+                        </ul>                        
+                       
                         <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="button button--light"><a href="#">СМОТРЕТЬ</a></button>
+                        <a href="#" class="button button--light">СМОТРЕТЬ</a>
                     </div>
                  </li>
 
@@ -82,12 +101,21 @@
                     <img src="img/ocean.png" class="offers__img" alt="hot tour">
                     <div class="offers__content">
                         <h3 class="offers__title">Индонезия</h3>
-                        <img src="img/calendar.png" alt="calendar" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">7-12 ночей</p>
-                        <img src="img/meal.png" alt="breakfast" class="offfers__feature-icon">
-                        <p class="offfers__feature-text">Завтраки</p>
+                       
+                        <ul class="offers__features">
+                           <li class="offers__feature">
+                               <img src="img/calendar.png" alt="calendar" class="offers__features-icon">
+                            </li>
+                            <li class="offers_feature">7-12 ночей</li>
+                        </ul>
+                        
+                        <ul class="offers__features">
+                            <li class="offers__feature"><img src="img/meal.png" alt="breakfast" class="offers__features-icon"></li>
+                            <li class="offers__features-text">Завтраки</li>
+                        </ul>                        
+                       
                         <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="button button--dark"><a href="#">СМОТРЕТЬ</a></button>
+                        <a href="#" class="button button--light">СМОТРЕТЬ</a>
                     </div>
                  </li>
 
@@ -128,11 +156,11 @@
         <img src="img/mountains.png" alt="mountains" class="about__img">
         <h4 class="about__title">О нас</h4>
         <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-        <button class="button">Подробнее</button>
+       <a href="" class="button">Подробнее</a>
     </section>
 
 </main>
-    </div><!--End of wrapper__content-->
+        </div><!--End of wrapper__content-->
     <footer class="footer">
         <div class="container footer__container">
             <a href="#" class="logo">
