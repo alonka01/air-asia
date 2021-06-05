@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 1%;
+    background-color: #001821;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.wrapper__content {
+    padding: 0 15%;
+}
+
+a {
+    text-decoration: none;
+    color:#aaa;
+    text-decoration: none;
+}
+
+.logo img {
+    width:100%;
+}
+nav {
+    display: inline-block;
+    width:70%;
+}
+
+address {
+    width: 25%;
+    text-align: right;
+}
+
+.menu__item__logo {
+    width: 13%;
+    padding-right:10%;
+    vertical-align: middle;
+}
+
+.logo, nav li, address {
+    display: inline-block;
+}
+
+.menu__item {
+    padding-right: 5%;
+}
+
+.hello {
+    padding-bottom: 20%;
+}
+
+.hello__title {
+    font-size: 4em;
+    width: 60%;
+    margin-bottom: 3%;
+}
+
+.hello__text {
+    margin-bottom: 5%;
+}
+
+.hello__button {
+    padding: 2% 5%;
+    background-color: #F5170E;
+    color: #fff;
+    border-radius: 35px;
+}
+
+.title__fire::after {
+    content: url(img/flame.png);
+    padding-left: 1%;
+    vertical-align: middle;
+}
+
+.offers__item {
+    display: inline-block;
+    width:30%;
+    margin-right:2%;
+}
+
+.offers__features {
+   padding: 0 1%;
+}
+
+.offers__content {
+    background-color: #fff;
+    color: #000;
+}
+
+.offers__features, .offers__features li {
+    display: inline-block;
+}
