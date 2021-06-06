@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper__content {
-    padding: 0 15%;
+    padding: 0 8%;
 }
 
 a {
@@ -63,17 +63,27 @@ address {
     margin-bottom: 5%;
 }
 
-.hello__button {
+.button {
     padding: 2% 5%;
     background-color: #F5170E;
     color: #fff;
     border-radius: 35px;
 }
 
+
+h2 {
+    padding-left: 4%;
+}
+
 .title__fire::after {
     content: url(img/flame.png);
     padding-left: 1%;
     vertical-align: middle;
+}
+
+.offers__title {
+    margin: 0;
+    padding-bottom: 5%;
 }
 
 .offers__item {
@@ -89,8 +99,106 @@ address {
 .offers__content {
     background-color: #fff;
     color: #000;
+    margin-top: -5px;
+    padding: 8% 3%;
 }
 
 .offers__features, .offers__features li {
     display: inline-block;
+}
+
+.offers__img {
+    width: 100%;
+}
+
+.button--light {
+    background-color: #fff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    /* box-sizing: border-box; */
+    border-radius: 35px;   
+}
+
+.news__item {
+    position: relative;
+    display: inline-block;
+    width:40%;
+    vertical-align: top;
+}
+
+.news__img {
+    width: 100%;
+    vertical-align: top;
+  
+}
+
+.news__text-content {
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom:0;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination__content, .pagination__text {
+    display: inline;
+}
+
+.pagination__content li {
+    display: inline-block;
+    padding: 0 0.8%;
+    text-align: center;
+}
+
+.pagination__item:hover {
+    background-color: #fff;
+    color: #F5170E;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.about {
+    width:50%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.about__content {
+    background-image: url(img/mountains.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #000;
+    padding: 7% 5%;
+    right: 0;
+    z-index: 10;
+}
+
+/* .about__content::after{
+    content:url(img/gates.png);
+    z-index: -1;
+} */
+
+.about__text {
+    margin-bottom: 7%;
+}
+
+.menu, .social, .contacts {
+    display: inline-block;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.logo__footer img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.footer nav {
+    width: 40%;
 }
