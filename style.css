@@ -161,27 +161,32 @@ h2 {
 }
 
 .about {
-    width:50%;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 10%;
     position: relative;
+    height: 500px;
 }
 
 .about__content {
+    position: absolute;
+    width:50%;
     background-image: url(img/mountains.png);
+    background-size: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
     color: #000;
     padding: 7% 5%;
     right: 0;
-    z-index: 10;
+    bottom:0;
 }
-
-/* .about__content::after{
+/*
+ .about__content::before{
     content:url(img/gates.png);
-    z-index: -1;
-} */
-
+} 
+*/
 .about__text {
     margin-bottom: 7%;
 }
