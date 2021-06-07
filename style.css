@@ -12,9 +12,15 @@ body {
     color: #fff;
 }
 
-.wrapper__content {
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
     padding: 0 8%;
 }
+
+/* .wrapper__content {
+    padding: 0 8%;
+} */
 
 a {
     text-decoration: none;
@@ -182,11 +188,17 @@ h2 {
     right: 0;
     bottom:0;
 }
-/*
- .about__content::before{
-    content:url(img/gates.png);
-} 
-*/
+
+ .about::before{
+    content:"";
+    display: block;
+    width: 30%;
+    height: 60%;
+    margin-left: 20%;
+    background-image: url(img/gates.png);
+    background-size: cover;
+}
+
 .about__text {
     margin-bottom: 7%;
 }
