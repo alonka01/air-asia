@@ -15,16 +15,12 @@ body {
 .wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 8%;
+    padding: 0 10%;
 }
-
-/* .wrapper__content {
-    padding: 0 8%;
-} */
 
 a {
     text-decoration: none;
-    color:#aaa;
+    color:#fff;
     text-decoration: none;
 }
 
@@ -39,6 +35,10 @@ nav {
 address {
     width: 25%;
     text-align: right;
+}
+
+.contacts__phone {
+    font-size: 1.5em;
 }
 
 .menu__item__logo {
@@ -128,7 +128,7 @@ h2 {
 .news__item {
     position: relative;
     display: inline-block;
-    width:40%;
+    width:45%;
     vertical-align: top;
 }
 
@@ -144,6 +144,10 @@ h2 {
     right: 0;
     bottom:0;
 }
+
+.news__text-content h3 {
+    line-height: 0;
+ }
 
 .pagination {
     text-align: center;
@@ -161,9 +165,12 @@ h2 {
 
 .pagination__item:hover {
     background-color: #fff;
-    color: #F5170E;
     border-radius: 100%;
     cursor: pointer;
+}
+
+.pagination__item a:hover {
+    color: #F5170E;
 }
 
 .about {
@@ -218,4 +225,14 @@ h2 {
 
 .footer nav {
     width: 40%;
+}
+
+.contacts__phone, .contacts__info {
+    font-style: normal;
+}
+
+.contacts__text {
+    font-size: 0.6em;
+    color: #9A9A9A;
+    font-style: normal;
 }
