@@ -71,6 +71,11 @@ a {
     padding-right: 42px;
 }
 
+.menu__link:hover {
+    color: #9A9A9A;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
 
 .contacts__phone {
     font-size: 1.5em;
@@ -79,6 +84,43 @@ a {
 
 .contacts__info {
     font-style: normal;
+    cursor: pointer;
+}
+
+.contacts__popup {
+    display: none;
+    position: absolute;
+}
+
+.contacts__info:hover ~ .contacts__popup {
+    display: initial;
+}
+
+.contacts__popup__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width:160px;
+    height:80px;
+    background: url("./img/popup.png") no-repeat;
+}
+
+.contacts__popup__content p {
+    font-size: 13px;
+    color: #000;
+    font-style: normal;
+}
+
+.contacts__popup__content p:first-child {
+    padding-top: 15px;
+    font-weight: 700;
+    margin:0;
+}
+
+.contacts__popup__content p:last-child {
+    font-weight: 600;
 }
 
 .hello {
@@ -215,6 +257,8 @@ margin-left: 36px;
 .pagination__item:hover, .pagination__item_active {
     background-color: #fff;
     color: #F5170E;
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-duration: .5s;
 }
 
  a {
@@ -306,6 +350,8 @@ margin-left: 36px;
 
 .social-icon:hover{
     filter: contrast(0.5);
+    transition:linear;
+    transition-duration: .3s;
 }
 
 .contacts__phone, .contacts__info {
@@ -390,6 +436,8 @@ a.breadcrumbs__item--active{
 
 .service:hover {
     background: #f4f5f5;
+    transition:linear;
+    transition-duration: .3s;
 }
 
 .services__img {
@@ -421,6 +469,8 @@ a.breadcrumbs__item--active{
 .pagination--theme--dark .pagination__item:hover, .pagination--theme--dark .pagination__item_active {
     color: #fff;
     background-color: #F5170E;
+    transition:linear;
+    transition-duration: .3s;
 }
 
 .inner-section {
@@ -459,6 +509,8 @@ a.breadcrumbs__item--active{
 
 .partners__link:hover {
     filter: grayscale(0);
+    transition:linear;
+    transition-duration: .3s;
 }
 
 /* Reviews page */
@@ -644,11 +696,15 @@ button {
 }
 
 .form__button:hover {
-    background: #000; 
+    background: #000;
+    transition:linear;
+    transition-duration: .3s; 
 }
 
 .button--black:hover {
     background: #F5170E;
+    transition:ease-in;
+    transition-duration: .3s;
 }
 
 .form__buttons {
@@ -675,6 +731,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: zoom .9s ease-in forwards;
+    opacity: 0;
+    /* animation-fill-mode: forwards; */
+    /* transition-delay: 1s; */
 }
 
 .central__logo {
@@ -683,4 +743,31 @@ button {
 
 .central__text {
     font-size:18px;
+}
+
+@keyframes zoom {
+    from {
+            transform: scale(.7);
+            /* opacity: 1; */
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+    
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.96);
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
