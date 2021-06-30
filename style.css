@@ -371,7 +371,7 @@ margin-left: 36px;
 }
 
 .container {
-    margin: 0 13%;
+    margin: 0 10%;
  }
 
 .top-line {
@@ -379,7 +379,6 @@ margin-left: 36px;
     flex-direction: column;
     min-height: 415px;
     background: #202123;
-    padding-bottom: 25px;
     background: url("./img/headline.png") right 50% top no-repeat;
 }
 .top-line__container {
@@ -394,6 +393,9 @@ margin-left: 36px;
     font-weight: bold;
 }
 
+.breadcrumbs {
+    padding-bottom: 23px;
+}
 
 .breadcrumbs a {
     text-decoration: underline;
