@@ -656,3 +656,31 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+/* welcome page */
+
+.welcome {
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background:url("./img/bg.png") center bottom/cover no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo {
+    margin-bottom: 65px; 
+}
+
+.central__text {
+    font-size:18px;
+}
