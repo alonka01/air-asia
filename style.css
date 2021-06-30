@@ -541,3 +541,53 @@ a.breadcrumbs__item--active{
 .reviews__item {
     margin-bottom:20px;
 }
+
+.separator {
+    background: url("./img/feedback-bg.png") right 20% bottom no-repeat;
+    /* min-height: 360px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.separator__content {
+    padding-top: 21px;
+    display: inline-flex;
+}
+.separator__title {
+max-width:50%;
+font-size: 48px;
+font-weight: bold;
+line-height: 1.1;
+display: flex;
+align-items: center;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right:30px;
+    border-radius: 4px;
+    border:none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #202123;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 232px;
+}
