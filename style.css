@@ -569,6 +569,21 @@ align-items: center;
     margin-bottom: 30px;
 }
 
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 40%;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
 .form__input {
     flex: 1;
     margin-right:30px;
@@ -590,4 +605,54 @@ align-items: center;
 
 .form__input--textarea {
     height: 232px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #c7e9d0;
+}   
+
+.controls__checkbox {
+    display: none;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button--black {
+    background: #000; 
+}
+
+.form__button {
+    margin-right: 20px;
+
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}
+
+.form__button:hover {
+    background: #000; 
+}
+
+.button--black:hover {
+    background: #F5170E;
+}
+
+.form__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
