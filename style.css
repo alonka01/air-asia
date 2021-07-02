@@ -89,7 +89,8 @@ a {
 }
 
 .container {
-    margin: 0 10%;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .contacts__info {
@@ -426,10 +427,6 @@ margin-left: 36px;
 .body__services {
     margin: 0;
 }
-
-.container {
-    /* margin: 0 8%; */
- }
 
 .top-line {
     display:flex;
