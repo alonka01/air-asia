@@ -29,6 +29,12 @@ img {
      background-size: 100%;
 }
 
+.wrapper__subpages {
+    background: url(./img/headline.png) center top no-repeat;
+    /* background-size: 100%; */
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -424,7 +430,7 @@ margin-left: 36px;
 
 /* services page */
 
-.body__services {
+.body__sub {
     margin: 0;
 }
 
@@ -432,8 +438,8 @@ margin-left: 36px;
     display:flex;
     flex-direction: column;
     min-height: 415px;
-    background: #202123;
-    background: url("./img/headline.png") right 50% top no-repeat;
+    /* background: #202123; */
+    /* background: url("./img/headline.png") right 50% top no-repeat; */
 }
 .top-line__container {
     flex:1;
